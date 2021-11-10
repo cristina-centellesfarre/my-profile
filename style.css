@@ -1,0 +1,109 @@
+body {
+	background: linear-gradient(#e66465, #9198e5);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	text-align: justify;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:  lighter;
+	text-align: center;
+}
+h1 {
+	font-size: 2,5rem;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none;
+}
+
+h2{
+	font-size: 20px;
+	text-align: center;
+}
+a {
+	text-decoration:  none;
+	color: rgb(68, 68, 68);
+	text-align: center;
+}
+a:hover {
+	color: rgb(80, 80, 80);
+}
+
+/* custom design with class*/
+
+.container {
+	width:  700px;
+	margin:  40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+.card {
+	background-color: #edeaea;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 40px 0px;
+	list-style: none;
+	text-align: center;
+}
+
+.card-follow {
+	color:  white;
+	background-color: #86626E;
+}
+
+
+.img-circle{
+	border-radius: 50%
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.instagram:hover {
+	color: #E12C6B;
+}
+
+.facebook:hover {
+	color: #3b5998;
+}
+
+.linkedin:hover {
+	color: #0e76a8;
+}
+
+.link {
+	color: black;
+}
+
+.link:hover {
+	color:  #E12C6B;
+}
